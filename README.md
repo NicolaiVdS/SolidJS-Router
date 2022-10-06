@@ -1,5 +1,28 @@
+# Added  stuff
+
+## TailwindCss + DaisyUI
+
+Switched from windicss to [TailwindCss](https://tailwindcss.com/docs/guides/solidjs) + [Daisyui](https://daisyui.com/docs/install/).
+
+## CSS Theme Change
+
+- A tiny JS script to handle CSS themes
+- Change CSS theme using `button`, `toggle` or a `<select>`
+- It saves chosen theme in browser and uses it again when page reloads
+
+> https://github.com/saadeghi/theme-change
+
+## Netlify Ridirects 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2fa9e990-d735-48ad-9af2-c1c67fca2631/deploy-status)](https://app.netlify.com/sites/serene-gecko-45e2cc/deploys)
 
+base config `public/_redirects` to handle the routes when hosted on Netlify [Demo](https://solidrouter.netlify.nvds.be/).
+
+## Docker file
+
+basic setup for creating a docker image of your app that will run on the NGINX base image. 
+> NGINX redirect config included in `nginx.conf` 
+
+---
 ## Usage
 
 Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
@@ -41,26 +64,3 @@ Your app is ready to be deployed!
 ## Deployment
 
 You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
-
-# Added  stuff
-
-## TailwindCss + DaisyUI
-
-Switched from windicss to [TailwindCss](https://tailwindcss.com/docs/guides/solidjs) + [Daisyui](https://daisyui.com/docs/install/).
-
-## CSS Theme Change
-
-- A tiny JS script to handle CSS themes
-- Change CSS theme using `button`, `toggle` or a `<select>`
-- It saves chosen theme in browser and uses it again when page reloads
-
-> https://github.com/saadeghi/theme-change
-
-## Netlify Ridirects 
-
-base config `public/_redirects` to handle the routes when hosted on Netlify [Demo](https://solidrouter.netlify.nvds.be/).
-
-## Docker file
-
-basic setup for creating a docker image of your app that will run on the NGINX base image. 
-> NGINX redirect config included in `nginx.conf` 
