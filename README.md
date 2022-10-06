@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2fa9e990-d735-48ad-9af2-c1c67fca2631/deploy-status)](https://app.netlify.com/sites/serene-gecko-45e2cc/deploys)
+
 ## Usage
 
 Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
