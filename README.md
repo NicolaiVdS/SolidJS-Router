@@ -41,3 +41,26 @@ Your app is ready to be deployed!
 ## Deployment
 
 You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+
+# Added  stuff
+
+## TailwindCss + DaisyUI
+
+Switched from windicss to [TailwindCss](https://tailwindcss.com/docs/guides/solidjs) + [Daisyui](https://daisyui.com/docs/install/).
+
+## CSS Theme Change
+
+- A tiny JS script to handle CSS themes
+- Change CSS theme using `button`, `toggle` or a `<select>`
+- It saves chosen theme in browser and uses it again when page reloads
+
+> https://github.com/saadeghi/theme-change
+
+## Netlify Ridirects 
+
+base config `public/_redirects` to handle the routes when hosted on Netlify [Demo](https://solidrouter.netlify.nvds.be/).
+
+## Docker file
+
+basic setup for creating a docker image of your app that will run on the NGINX base image. 
+> NGINX redirect config included in `nginx.conf` 
